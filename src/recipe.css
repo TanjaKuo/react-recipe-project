@@ -1,0 +1,35 @@
+.item {
+  margin-right: 20px;
+  margin-bottom: 55px;
+  max-width: min-content;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.hide {
+  font-size: 0;
+}
+
+.show {
+  font-size: 16px;
+  max-width: fit-content;
+  letter-spacing: 1px;
+}
+
+.openBtn {
+  width: 190px;
+  height: 30px;
+  background-image: linear-gradient(to left, #ff0844 0%, #ffb199 100%);
+  border: none;
+  box-shadow: 0.5px 1px linear-gradient(to left, #ff0844 0%, #ffb199 100%);
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.cuisineType {
+  margin-left: 3px;
+  text-transform: capitalize;
+}
