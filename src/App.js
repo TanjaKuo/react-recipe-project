@@ -5,8 +5,8 @@ import "./App.css";
 // enter your own api id && key
 // https://developer.edamam.com/
 const App = () => {
-  const apiId = "";
-  const apiKey = "";
+  const apiId = "9ad35e83";
+  const apiKey = "cf29183161ab090b1bf57962ef4e80f2";
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
@@ -44,7 +44,7 @@ const App = () => {
     <div className="container">
       <div className="searchBar">
         <form onSubmit={getSearch}>
-          <h2>Looking for recipe for today's dinner</h2>
+          <h2>What is today's dinner?</h2>
           <input
             placeholder=" beef noodle soup"
             value={search}
